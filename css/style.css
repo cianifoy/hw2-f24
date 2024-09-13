@@ -30,7 +30,7 @@ img{
 div{
     height: 180px;
     padding: 20px;
-    border: 3px solid;
+    border: 3px solid #fff;
 }
 .introduction{
     border-radius: 15px;
@@ -41,15 +41,13 @@ div{
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 5px;
-    border-top: 2px;
+    border-width: 0px 0px 5px 2px;
 }
 .blue{
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-width: 2px 5px 0px 0px;
     h2{
         color: #C4C4C4
     }
@@ -61,8 +59,7 @@ div{
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-width: 0px 0px 5px 2px;
     p{
         color: #707070;
     }
@@ -71,12 +68,11 @@ div{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-width: 2px 5px 0px 0px;
 }
 footer{
     
-    background-image: linear-gradient(to right, rgb(0,0,0), rgb(0,0,255)25%,rgb(0,102,255)70%, rgb(0,0,0));
+    background-image: linear-gradient(to right, #000000, #0000ff 25%,#0066ff 70%, #000000);
     border: 5px solid;
     text-align: right;
     font-size: 20px;
